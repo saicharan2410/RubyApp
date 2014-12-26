@@ -994,3 +994,246 @@ Processing by MusicsController#index as HTML
   [1m[35mMusic Load (12.8ms)[0m  SELECT "musics".* FROM "musics"
   Rendered musics/index.html.erb within layouts/application (33.0ms)
 Completed 200 OK in 193ms (Views: 164.8ms | ActiveRecord: 25.1ms)
+
+
+Started GET "/" for ::1 at 2014-12-25 21:18:52 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (11.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MusicsController#all as HTML
+  Rendered musics/all.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 5297ms (Views: 5285.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/css/bootstrap-responsive.css" for ::1 at 2014-12-25 21:18:59 -0600
+
+ActionController::RoutingError (No route matches [GET] "/assets/css/bootstrap-responsive.css"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/Pathyam/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/Pathyam/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/Pathyam/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/Pathyam/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/Pathyam/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/Pathyam/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (21.5ms)
+  Rendered /Users/Pathyam/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/Pathyam/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.2ms)
+  Rendered /Users/Pathyam/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (176.2ms)
+
+
+Started GET "/assets/application-37e20cc6c824dfc2c7bbd71f35426cfd.css?body=1" for ::1 at 2014-12-25 21:18:59 -0600
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for ::1 at 2014-12-25 21:18:59 -0600
+
+
+Started GET "/assets/statuses-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2014-12-25 21:18:59 -0600
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for ::1 at 2014-12-25 21:18:59 -0600
+
+
+Started GET "/assets/bootstrap_and_overrides-25e19eeaf2af09fca1e98205d62dacb7.css?body=1" for ::1 at 2014-12-25 21:18:59 -0600
+
+
+Started GET "/assets/scaffolds-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2014-12-25 21:18:59 -0600
+
+
+Started GET "/assets/twitter/bootstrap/transition-e920d99b8661546d8bfb3a50bb3401ff.js?body=1" for ::1 at 2014-12-25 21:18:59 -0600
+
+
+Started GET "/assets/twitter/bootstrap/modal-22e4b3cc7039c9f2e14126a988381a78.js?body=1" for ::1 at 2014-12-25 21:18:59 -0600
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-2c1ded952ba256a006c5fe5827c3345a.js?body=1" for ::1 at 2014-12-25 21:18:59 -0600
+
+
+Started GET "/assets/twitter/bootstrap/button-b0d2047e0a9531f022e7b3974a53f026.js?body=1" for ::1 at 2014-12-25 21:18:59 -0600
+
+
+Started GET "/assets/twitter/bootstrap/affix-b4ba482492fdd3f469614f39f066e0d0.js?body=1" for ::1 at 2014-12-25 21:18:59 -0600
+
+
+Started GET "/assets/twitter/bootstrap-e800ced57066492f80dd348fac5ddae0.js?body=1" for ::1 at 2014-12-25 21:18:59 -0600
+
+
+Started GET "/assets/bootstrap.min-d8a45720a105ce3f0ed788e4a5fdd750.js?body=1" for ::1 at 2014-12-25 21:18:59 -0600
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-fa91706a0639aaa5d768f8f3c74b25a9.js?body=1" for ::1 at 2014-12-25 21:18:59 -0600
+
+
+Started GET "/assets/twitter/bootstrap/alert-d9badd591415c8d9b56188d457413a2f.js?body=1" for ::1 at 2014-12-25 21:18:59 -0600
+
+
+Started GET "/assets/twitter/bootstrap/collapse-84e55a4a7e94f05d923f3091c166ff2e.js?body=1" for ::1 at 2014-12-25 21:18:59 -0600
+
+
+Started GET "/assets/twitter/bootstrap/tab-57128bfb849374981c34258d59437841.js?body=1" for ::1 at 2014-12-25 21:18:59 -0600
+
+
+Started GET "/assets/twitter/bootstrap/popover-25da2e821aee1328fdd68c902ea2ca4e.js?body=1" for ::1 at 2014-12-25 21:18:59 -0600
+
+
+Started GET "/assets/twitter/bootstrap/carousel-8a517fb8e112cfb5cbce10a44a8da4ac.js?body=1" for ::1 at 2014-12-25 21:18:59 -0600
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2014-12-25 21:18:59 -0600
+
+
+Started GET "/assets/bootstrap/button-422bd197e0b53d2f7477cb521776aadb.js?body=1" for ::1 at 2014-12-25 21:18:59 -0600
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-e4346577672a4a7ee768730d6ad0b4cd.js?body=1" for ::1 at 2014-12-25 21:18:59 -0600
+
+
+Started GET "/assets/bootstrap/collapse-20bda228e0a68013abcfe4ce3a88ac87.js?body=1" for ::1 at 2014-12-25 21:18:59 -0600
+
+
+Started GET "/assets/bootstrap/dropdown-85b34e99a6b5bb1a35c8751aed3e09d7.js?body=1" for ::1 at 2014-12-25 21:18:59 -0600
+
+
+Started GET "/assets/bootstrap/affix-a9b852fe44dc5982a51ffb66baa3ab2e.js?body=1" for ::1 at 2014-12-25 21:18:59 -0600
+
+
+Started GET "/assets/bootstrap/alert-12c1121c517b3085934c9173c0e083ed.js?body=1" for ::1 at 2014-12-25 21:18:59 -0600
+
+
+Started GET "/assets/bootstrap/modal-19058d2f94ebcfb1a44bbfb8a52b8661.js?body=1" for ::1 at 2014-12-25 21:18:59 -0600
+
+
+Started GET "/assets/bootstrap/carousel-1aca75d21b33f868f2d7b289fb1ad98d.js?body=1" for ::1 at 2014-12-25 21:18:59 -0600
+
+
+Started GET "/assets/bootstrap-sprockets-b4bc28516a4674c29125b9de32ccd9d3.js?body=1" for ::1 at 2014-12-25 21:18:59 -0600
+
+
+Started GET "/assets/musics-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2014-12-25 21:18:59 -0600
+
+
+Started GET "/assets/bootstrap/tab-bb31fbcdd9289a81d659f197fca0efd0.js?body=1" for ::1 at 2014-12-25 21:18:59 -0600
+
+
+Started GET "/assets/bootstrap/transition-20c428b2eccf2dcfaf8de396b7ad7b26.js?body=1" for ::1 at 2014-12-25 21:18:59 -0600
+
+
+Started GET "/assets/bootstrap/tooltip-fe9092020b9bc68210dc1de9c589d39c.js?body=1" for ::1 at 2014-12-25 21:18:59 -0600
+
+
+Started GET "/assets/bootstrap/popover-7285d8d5ce28a05ba8b9fce5fcd87f74.js?body=1" for ::1 at 2014-12-25 21:18:59 -0600
+
+
+Started GET "/assets/bootstrap-ea3b329478de86f6874de44432b0d04a.js?body=1" for ::1 at 2014-12-25 21:18:59 -0600
+
+
+Started GET "/assets/statuses-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2014-12-25 21:18:59 -0600
+
+
+Started GET "/assets/application-039906a3f42ef19f4bf412da33949dcd.js?body=1" for ::1 at 2014-12-25 21:18:59 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy-fca31083878040fe5fa93a655aed11ba.js?body=1" for ::1 at 2014-12-25 21:19:00 -0600
+
+
+Started GET "/assets/music-e22f00134bcc44b733b94d5c10790e59.jpg" for ::1 at 2014-12-25 21:19:00 -0600
+
+
+Started GET "/musics" for ::1 at 2014-12-25 21:19:02 -0600
+Processing by MusicsController#index as HTML
+  [1m[35mMusic Load (13.3ms)[0m  SELECT "musics".* FROM "musics"
+  Rendered musics/index.html.erb within layouts/application (32.1ms)
+Completed 200 OK in 326ms (Views: 297.3ms | ActiveRecord: 24.9ms)
+
+
+Started GET "/musics/new" for ::1 at 2014-12-25 21:19:04 -0600
+Processing by MusicsController#new as HTML
+  Rendered musics/_form.html.erb (40.9ms)
+  Rendered musics/new.html.erb within layouts/application (46.5ms)
+Completed 200 OK in 339ms (Views: 338.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/musics" for ::1 at 2014-12-25 21:19:06 -0600
+Processing by MusicsController#index as HTML
+  [1m[36mMusic Load (0.3ms)[0m  [1mSELECT "musics".* FROM "musics"[0m
+  Rendered musics/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 291ms (Views: 290.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/musics/1" for ::1 at 2014-12-25 21:19:09 -0600
+Processing by MusicsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mMusic Load (5.6ms)[0m  SELECT  "musics".* FROM "musics" WHERE "musics"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered musics/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 327ms (Views: 285.3ms | ActiveRecord: 5.8ms)
+
+
+Started GET "/musics" for ::1 at 2014-12-25 21:19:11 -0600
+Processing by MusicsController#index as HTML
+  [1m[36mMusic Load (0.4ms)[0m  [1mSELECT "musics".* FROM "musics"[0m
+  Rendered musics/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 291ms (Views: 289.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2014-12-25 21:19:14 -0600
+Processing by MusicsController#all as HTML
+  Rendered musics/all.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 286ms (Views: 285.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/music-e22f00134bcc44b733b94d5c10790e59.jpg" for ::1 at 2014-12-25 21:19:14 -0600
+
+
+Started GET "/assets/css/bootstrap-responsive.css" for ::1 at 2014-12-25 21:19:14 -0600
+
+ActionController::RoutingError (No route matches [GET] "/assets/css/bootstrap-responsive.css"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/Pathyam/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/Pathyam/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/Pathyam/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/Pathyam/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/Pathyam/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (1.6ms)
+  Rendered /Users/Pathyam/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (1.6ms)
+  Rendered /Users/Pathyam/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/Pathyam/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.1ms)
+  Rendered /Users/Pathyam/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (99.1ms)
