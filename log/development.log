@@ -943,3 +943,54 @@ Processing by MusicsController#index as HTML
   [1m[35mMusic Load (19.1ms)[0m  SELECT "musics".* FROM "musics"
   Rendered musics/index.html.erb within layouts/application (38.4ms)
 Completed 200 OK in 168ms (Views: 134.8ms | ActiveRecord: 29.1ms)
+
+
+Started GET "/" for ::1 at 2014-12-25 21:10:05 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (23.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MusicsController#all as HTML
+  Rendered musics/all.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 1413ms (Views: 1392.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/css/bootstrap-responsive.css" for ::1 at 2014-12-25 21:10:08 -0600
+
+ActionController::RoutingError (No route matches [GET] "/assets/css/bootstrap-responsive.css"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/Pathyam/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/Pathyam/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/Pathyam/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/Pathyam/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/Pathyam/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (1.4ms)
+  Rendered /Users/Pathyam/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (23.6ms)
+  Rendered /Users/Pathyam/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/Pathyam/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.1ms)
+  Rendered /Users/Pathyam/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (193.8ms)
+
+
+Started GET "/musics" for ::1 at 2014-12-25 21:10:10 -0600
+Processing by MusicsController#index as HTML
+  [1m[35mMusic Load (12.8ms)[0m  SELECT "musics".* FROM "musics"
+  Rendered musics/index.html.erb within layouts/application (33.0ms)
+Completed 200 OK in 193ms (Views: 164.8ms | ActiveRecord: 25.1ms)
